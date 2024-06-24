@@ -1,0 +1,27 @@
+.promo {
+  background-image: url(../images/NiggaForPromo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.promo_inner {
+  max-width: 1276px;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 214px;
+}
+
+.promo_title {
+  @include section-title;
+  color: #fff;
+}
+
+.promo_button {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.dark_background {
+  background-color: rgba(51, 51, 51, .4);
+}
