@@ -7,7 +7,13 @@
   }
 
   a {
+    display: block;
+    padding: 33px 25px;
     color: #fff;
     text-decoration: none;
   }
+}
+
+.main-nav_link-clickable {
+    background-color: $color-accent;
 }
